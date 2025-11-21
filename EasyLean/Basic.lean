@@ -1,12 +1,4 @@
-import Mathlib.Data.Real.Basic
-import Mathlib.Tactic.Linarith
-
-theorem mathd_algebra_513
-  (a b : ℝ)
-  (h₀ : 3 * a + 2 * b = 5)
-  (h₁ : a + b = 2) :
-  a = 1 ∧ b = 1 := by
-  sorry
-
-theorem eq_four : ∀ a b c d : Nat, a = b → a = d → a = c → c = b := by
-  sorry
+import Mathlib
+import EasyLean.Theorems.a_eq_lincomb
+import EasyLean.Theorems.mathd_algebra_513
+import EasyLean.Theorems.eq_four
